@@ -1,6 +1,6 @@
 Name:           perl-XML-SAX-Base
 Version:        1.08
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Base class SAX drivers and filters
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -47,6 +47,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-7
+- Mass rebuild 2013-12-27
+
 * Tue Nov 22 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.08-6
 - Update dependencies
 - Replace PERL_INSTALL_ROOT with DESTDIR
